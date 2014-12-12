@@ -14,6 +14,7 @@
 		99C672EE1A3A805300EE6A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C672ED1A3A805300EE6A92 /* Images.xcassets */; };
 		99C672F11A3A805300EE6A92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99C672EF1A3A805300EE6A92 /* LaunchScreen.xib */; };
 		99C672FD1A3A805300EE6A92 /* Drawing_a_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C672FC1A3A805300EE6A92 /* Drawing_a_HouseTests.m */; };
+		99C673081A3A80A800EE6A92 /* HouseDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C673071A3A80A800EE6A92 /* HouseDrawing.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		99C672F61A3A805300EE6A92 /* Drawing a HouseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drawing a HouseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C672FB1A3A805300EE6A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99C672FC1A3A805300EE6A92 /* Drawing_a_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_a_HouseTests.m; sourceTree = "<group>"; };
+		99C673061A3A80A800EE6A92 /* HouseDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseDrawing.h; sourceTree = "<group>"; };
+		99C673071A3A80A800EE6A92 /* HouseDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseDrawing.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 				99C672E41A3A805200EE6A92 /* AppDelegate.h */,
 				99C672E51A3A805200EE6A92 /* AppDelegate.m */,
 				99C672E71A3A805300EE6A92 /* ViewController.h */,
+				99C673061A3A80A800EE6A92 /* HouseDrawing.h */,
+				99C673071A3A80A800EE6A92 /* HouseDrawing.m */,
 				99C672E81A3A805300EE6A92 /* ViewController.m */,
 				99C672EA1A3A805300EE6A92 /* Main.storyboard */,
 				99C672ED1A3A805300EE6A92 /* Images.xcassets */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C672E91A3A805300EE6A92 /* ViewController.m in Sources */,
+				99C673081A3A80A800EE6A92 /* HouseDrawing.m in Sources */,
 				99C672E61A3A805200EE6A92 /* AppDelegate.m in Sources */,
 				99C672E31A3A805200EE6A92 /* main.m in Sources */,
 			);
